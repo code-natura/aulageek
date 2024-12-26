@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libre-Book</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="img/banner.png" alt="Banner Libre-Book">
+        </div>
+        <h1>Agregar Tu Libro</h1>
+        <form id="libroForm">
+            <input type="text" id="titulo" placeholder="Título del libro" required>
+            <input type="text" id="autor" placeholder="Autor" required>
+            <input type="text" id="genero" placeholder="Género literario" required>
+            <input type="number" id="precio" placeholder="Precio" required>
+            <input type="file" id="imagen" accept="image/*" required>
+            <button type="submit">Agregar Libro</button>
+        </form>
+        <div id="librosMostrados"></div>
+    </div>
+    <div class="footer">
+        <p> AuluraGeek / © Desarrollado por Rubén Agudelo / Aulura Latam - 2024</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
